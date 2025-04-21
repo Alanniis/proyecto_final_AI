@@ -1,0 +1,522 @@
+
+.contenedor_banner{
+    position: absolute; 
+    top: 20px; 
+    left: 0px; 
+    width: 1400px; 
+    height: 1220px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 0px; 
+  }
+
+/* Image */
+.icono_principal {
+    position: absolute; 
+    top: 10px; 
+    left: 24px; 
+    width: 36px; 
+    height: 36px; 
+    border-radius: 0px; 
+  }
+
+
+  .texto {
+    position: absolute; 
+    top: 7px; 
+    left: 70px; 
+    font-family: Archivo; /* Heading */
+    font-size: 28px; 
+    line-height: 42px; 
+    font-weight: 700; 
+    color: #000000FF; /* black */
+  }
+
+
+  /* Header Menu */
+.header-menu {
+    position: absolute; 
+    top: 2px; 
+    left: 420px; 
+    width: 311px; 
+    height: 52px; 
+    display: flex; 
+    align-items: center; 
+    font-family: Inter; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    opacity: 1; 
+  }
+  /* Header Menu - Item */
+  .header-menu .header-menu-item {
+    padding: 15px 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #565E6CFF; /* neutral-600 */
+    /* background: #000000FF;  */
+    /* transparent */
+    border-radius: 6px; /* border-m */
+    cursor: pointer; 
+    white-space: nowrap; 
+  }
+  /* Header Menu - Selected item */
+  .header-menu .header-menu-item.selected {
+    position: relative; 
+    font-weight: 700; 
+    color: #636AE8FF; /* primary-500 */
+    background: #000000FF; /* transparent */
+  }
+  /* Header Menu - Selected item */
+  .header-menu .header-menu-item.selected:hover:active {
+    color: #636AE8FF; /* primary-500 */
+    background: #000000FF; /* transparent */
+  }
+  /* Header Menu - Item with indicator */
+  .header-menu .header-menu-item.selected .indicator {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 4px; 
+    background: #636AE8FF; /* primary-500 */
+    border-radius: 2px; 
+  }
+  /* Header menu item 1 */
+  .header-menu .header-menu-item:nth-child(1) {
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 700; 
+    color: #636AE8FF; /* primary-500 */
+  }
+  /* Header menu item 2 */
+  .header-menu .header-menu-item:nth-child(2) {
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #565E6CFF; /* neutral-600 */
+  }
+  /* Header menu item 3 */
+  .header-menu .header-menu-item:nth-child(3) {
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #565E6CFF; /* neutral-600 */
+  }
+
+  /*Botón de Loggin*/
+
+  /* Button */
+.button_loggin {
+    position: absolute; 
+    top: 10px; 
+    left: 1080px; 
+    width: 160px; 
+    height: 36px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #636AE8FF; /* primary-500 */
+    background: #FFFFFFFF; /* white */
+    opacity: 1; 
+    border-radius: 10px; /* border-l */
+    border-width: 1px; 
+    border-color: #636AE8FF; /* primary-500 */
+    border-style: solid; 
+    gap: 6px; 
+  }
+  
+  /* Button Sing up */
+.button_up {
+    position: absolute; 
+    top: 10px; 
+    left: 1256px; 
+    width: 160px; 
+    height: 36px; 
+    padding: 0 12px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Inter; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; /* white */
+    background: #636AE8FF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 10px; /* border-l */
+    gap: 6px; 
+  }
+  
+/* Container 2 */
+.contenedor_overlay {
+    position: absolute; 
+    top: 15%; 
+    width: 100%;
+    height: 100%;
+    background: #1D2128FF; 
+    border-radius: 0px; 
+  }
+
+
+  /* Image Overla */
+.imagen_overlay {
+    position: absolute; 
+    margin-right: 100%;
+    margin-left: 10%;
+    max-width: 100%;
+    border-radius: 0px; 
+  }
+
+/* Overlay 1 */
+.overlay {
+    position: absolute; 
+    top: 0px; 
+    left: -9px; 
+    width: 100%; 
+    height: 640px; 
+    background: #171A1F66; /* neutral-900 */
+    border-radius: 0px; 
+  }
+
+
+.texto_principal_overlay {
+    position: absolute; 
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 1176px; 
+    height: 84px; 
+    font-family: Archivo; /* Heading */
+    font-size: 64px; 
+    line-height: 84px; 
+    font-weight: 700; 
+    color: #FFFFFFFF; /* white */
+    z-index: 1;
+  }
+
+  .texto_secundario_overlay {
+    position: absolute; 
+    margin-top: 17%;
+    margin-left: 33%;
+    width: 1176px; 
+    height: 36px; 
+    font-family: Inter; /* Body */
+    font-size: 28px; 
+    line-height: 36px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; /* white */
+    z-index: 1;
+  }
+
+  /* Button 15 */
+.button_overlay {
+    position: absolute; 
+    margin-top: 25%;
+    margin-left: 43%;
+    height: 52px; 
+    padding: 0 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Inter; 
+    font-size: 18px; 
+    line-height: 28px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; /* white */
+    background: #636AE8FF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 6px; /* border-m */
+  }
+
+
+/*Features*/
+
+/* Container 3 */
+.contenedor_features {
+    position: absolute; 
+    top: 83%; 
+    left: 0px; 
+    width: 100%; 
+    height: 872px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 0px; 
+  }
+
+.texto_features{
+    position: absolute; 
+    top: 96px; 
+    margin-left: 37%;
+    height: 84px; 
+    font-family: Inter; /* Body */
+    font-size: 64px; 
+    line-height: 84px; 
+    font-weight: 700; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+
+/* Container 106 */
+.card_1 {
+    position: absolute; 
+    top: 228px; 
+    margin-left: 15%;
+    width: 371px; 
+    height: 448px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 16px; /* border-xl */
+    border-width: 1px; 
+    border-color: #F3F4F6FF; /* neutral-200 */
+    border-style: solid; 
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F; /* shadow-xs */
+  }
+
+  /* Container 104 */
+.icono_card_1 {
+    position: absolute; 
+    top: 56px; 
+    left: 137px; 
+    width: 96px; 
+    height: 96px; 
+    background: #F1F8FDFF; /* info-100 */
+    border-radius: 6px; /* border-m */
+  }
+
+  /* Receipt 1 */
+.icono_card_1_ {
+    position: absolute; 
+    top: 24px; 
+    left: 24px; 
+    width: 48px; 
+    height: 48px; 
+    fill: #379AE6FF; /* info-500 */
+  }
+
+ .texto_card1_1{
+    position: absolute; 
+    margin-top: 50%; 
+    margin-left: 30%;
+    width: 323px; 
+    height: 36px; 
+    font-family: Inter; /* Body */
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 700; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+.texto_card1_2{
+    
+    position: absolute; 
+    top: 260px; 
+    margin-left: 30%;
+    width: 323px; 
+    height: 22px; 
+    font-family: Inter; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #6E7787FF; /* neutral-550 */     
+}
+
+.texto_card1_3 {
+    position: absolute; 
+    top: 298px; 
+    margin-left: 15%;
+    width: 339px; 
+    height: 66px; 
+    font-family: Inter; /* Body */
+    font-size: 16px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+  /* Icon Button 2 */
+.button_card1 {
+    position: absolute; 
+    top: 380px; 
+    left: 24px; 
+    width: 44px; 
+    height: 44px; 
+    padding: 0 0px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #636AE8FF; /* primary-500 */
+    background: #F2F2FDFF; /* primary-100 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 22px; 
+    gap: 0px; 
+  }
+  .button_card1 .icon_card1 {
+    width: 26px; 
+    height: 26px; 
+    fill: #636AE8FF; /* primary-500 */
+  }
+  
+
+  .card_2 {
+    position: absolute; 
+    top: 228px; 
+   margin-left: 40%;
+    width: 371px; 
+    height: 448px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 16px; /* border-xl */
+    border-width: 1px; 
+    border-color: #F3F4F6FF; /* neutral-200 */
+    border-style: solid; 
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F; /* shadow-xs */
+  }
+
+
+  /* Receipt 1 */
+.icono_card_2_ {
+    position: absolute; 
+    top: 24px; 
+    left: 24px; 
+    width: 48px; 
+    height: 48px; 
+    fill: #117B34FF; /* info-500 */
+  }
+
+
+  .card_3 {
+    position: absolute; 
+    top: 228px; 
+   margin-left: 65%; 
+    width: 371px; 
+    height: 448px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 16px; /* border-xl */
+    border-width: 1px; 
+    border-color: #F3F4F6FF; /* neutral-200 */
+    border-style: solid; 
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F; /* shadow-xs */
+  }
+
+
+  /* Receipt 1 */
+.icono_card_2_ {
+    position: absolute; 
+    top: 24px; 
+    left: 24px; 
+    width: 48px; 
+    height: 48px; 
+    fill: #117B34FF; /* info-500 */
+  }
+
+  .texto_card2_1{
+    position: absolute; 
+    margin-top: 50%; 
+    margin-left: 25%;
+    width: 323px; 
+    height: 36px; 
+    font-family: Inter; /* Body */
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 700; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+  .texto_card2_2{
+    
+    position: absolute; 
+    top: 260px; 
+    margin-left: 23%;
+    width: 323px; 
+    height: 22px; 
+    font-family: Inter; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #6E7787FF; /* neutral-550 */     
+}
+
+.texto_card2_3 {
+    position: absolute; 
+    top: 298px; 
+    margin-left: 15%;
+    width: 339px; 
+    height: 66px; 
+    font-family: Inter; /* Body */
+    font-size: 16px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+  .texto_card3_1{
+    position: absolute; 
+    margin-top: 50%; 
+    margin-left: 20%;
+    width: 323px; 
+    height: 36px; 
+    font-family: Inter; /* Body */
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 700; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+  .texto_card3_2{
+    
+    position: absolute; 
+    top: 260px; 
+    margin-left: 15%;
+    width: 323px; 
+    height: 22px; 
+    font-family: Inter; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #6E7787FF; /* neutral-550 */     
+}
+
+.texto_card3_3 {
+    position: absolute; 
+    top: 298px; 
+    margin-left: 30%;
+    width: 339px; 
+    height: 66px; 
+    font-family: Inter; /* Body */
+    font-size: 16px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+ 
+  /*Botón de características*/
+
+  /* Button 100 */
+.button_features {
+    position: absolute; 
+    margin-top: 40%; 
+    margin-left: 43%;
+    width: 268px; 
+    height: 52px; 
+    padding: 0 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Inter; 
+    font-size: 18px; 
+    line-height: 28px; 
+    font-weight: 400; 
+    color: #FFFFFFFF; /* white */
+    background: #636AE8FF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 16px; /* border-xl */
+  }
+ 
